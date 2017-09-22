@@ -76,10 +76,10 @@ public class Hangman {
             }
         }
         if(isFound){
-            System.out.println("Not found");
-            
+            System.out.println();  
         }else{
-            numberOfIncorrectTries--;
+            System.out.println("Not found");    
+            numberOfIncorrectTries++;
         }
     }
     public void checkGameIsOver(){
